@@ -35,6 +35,7 @@ namespace Catalog.Api.Controllers
             // {
             //     items = items.Where(item => item.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
             // }
+            //test
 
             logger.LogInformation($"{DateTime.UtcNow.ToString("hh:mm:ss")}: Retrieved {items.Count()} items");
 
